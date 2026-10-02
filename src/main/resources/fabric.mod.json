@@ -9,8 +9,11 @@
   ],
   "contact": {},
   "license": "CC0-1.0",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
+    "main": [
+      "com.example.ExampleMod"
+    ],
     "client": [
       "com.example.ExampleMod"
     ]
